@@ -15,7 +15,7 @@ function reduce(array, func, startValue) {
      let value;
      let index;
 
-     if (startValue == true) {
+     if (startValue === true) {
           value = startValue;
           index = 0;
      } else {
