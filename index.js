@@ -4,5 +4,5 @@
 // } 
 
 function map(array, func){
-  return (func(array), `${array}`);
+  return (func(array));
 }
