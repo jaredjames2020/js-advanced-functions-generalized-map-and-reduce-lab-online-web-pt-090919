@@ -4,5 +4,6 @@
 // } 
 
 function map(array, func){
+  debugger;
   return (func(array), func(array));
 }
