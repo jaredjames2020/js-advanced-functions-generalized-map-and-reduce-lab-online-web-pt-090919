@@ -8,6 +8,6 @@ function map(array, func){
   for (let value of array)
     newArray.push(func(value));
   }
-  return newArray
+  return newArray;
 };
 
