@@ -3,5 +3,5 @@ function map(array){
   // let whatever = [];
   // whatever.push(array * -1);
   // return whatever;
-  return array.map(num*-1)
+  return array.map(num*-1);
 } 
