@@ -1,5 +1,5 @@
 // Add your functions here
-const mapFunc = function(array){
+const map = function(array){
   let whatever = [];
   whatever.push(array * -1);
   return whatever;
