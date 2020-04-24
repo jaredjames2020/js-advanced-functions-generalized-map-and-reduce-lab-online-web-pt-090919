@@ -10,3 +10,4 @@ function map(array, func) {
   }
   return newArray;
 }
+
