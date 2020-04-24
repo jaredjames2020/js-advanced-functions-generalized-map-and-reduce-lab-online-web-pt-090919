@@ -4,6 +4,6 @@
 // } 
 
 function map(array, func){
-  console.log(array);
+  console.log(${array});
   
 }
