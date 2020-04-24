@@ -4,6 +4,5 @@
 // } 
 
 function map(array, func){
-  debugger;
-  return (func(array), func(array));
+  return (array.map(num => num*-1), func(array));
 }
