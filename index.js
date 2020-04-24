@@ -4,9 +4,5 @@
 // } 
 
 function map(array, func){
-  func(array){
-    return array.map(num => num*-1)
-  }
   return (func(array), `${array}`);
-  
 }
