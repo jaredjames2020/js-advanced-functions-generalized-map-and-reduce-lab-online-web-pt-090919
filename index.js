@@ -4,5 +4,6 @@
 // } 
 
 function map(array, func){
-  return array
+  array;
+  
 }
