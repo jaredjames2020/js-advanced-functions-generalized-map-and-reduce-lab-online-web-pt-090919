@@ -9,12 +9,4 @@ function map(array, func) {
     newArray.push(func(value));
   }
   return newArray;
-};
-
-function map(sourceArray, func) {
-     let newArr = [];
-     for (let el of sourceArray) {
-          newArr.push(func(el));
-     }
-     return newArr
-};
+}
