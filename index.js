@@ -4,5 +4,6 @@
 // } 
 
 function map(array, func){
-  return (array.map(num => num*-1), func(array));
+  let neg = array.map(num => num*-1);
+  return (neg, func(array));
 }
